@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles/home.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <Header>
-        <img src="images/logo.png" alt="logo">
-        <a href="home.html">Home</a>
-        <a href="child1.html">Page1</a>
-        <a href="child2.html">Page2</a>
-        <h3>Search bar</h3>
-        <p>enter text here</p>
-    </Header>
+    <header>
+        <div id = "head">
+            <img id = "logo" src="images/logo.png" alt="logo">
+            <a class = "home" href="home.html">Home</a>
+            <a class = "child1" href="child1.html">Page1</a>
+            <a class = "child2" href="child2.html">Page2</a>
+            <button type="button">Search</button>
+            <input type="text" placeholder="Search">
+        </div>
+    </header>
 
-    <h1>Home page</h1>
-    <p>
-        Introducing the cutting-edge temperature-controlled jacket, a revolutionary piece of clothing that serves as your ideal companion for year-round comfort. Whether you're braving scorching summer heat or facing bone-chilling winter cold, this innovative jacket has you covered, all while ensuring your style game remains on point. With its advanced temperature-sensing technology, you can stay at the perfect comfort level, no matter where your adventures take you whether it be the freezing Arctic or Death Valley this jacket will serve you perfectly for any place on earth.
-    </p>
-    <img src="images/jacket.jpg" alt="guy in jacket">
-    <img src="images/ice warm.jpg" alt="ice on fire">
 
-    <footer>
-        <img src="images/twitter.png" alt="X">
+    <main class = "home-grid">
+        <h1 class = "title">Home page</h1>
+        <p class="para">
+            Introducing the cutting-edge temperature-controlled jacket, a revolutionary piece of clothing that serves as your ideal companion for year-round comfort. Whether you're braving scorching summer heat or facing bone-chilling winter cold, this innovative jacket has you covered, all while ensuring your style game remains on point. With its advanced temperature-sensing technology, you can stay at the perfect comfort level, no matter where your adventures take you whether it be the freezing Arctic or Death Valley this jacket will serve you perfectly for any place on earth.
+        </p>
+    
+        <img class="img1" src="images/jacket.jpg" alt="guy in jacket">
+        <img class="img2" src="images/ice_warm.jpg" alt="ice on fire">
+    </main>
+    
+
+
+
+    <footer class="footer">
+        <img class="twitter" src="images/twitter.png" alt="X">
         <img src="images/facebook.png" alt="faceBook">
         <img src="images/instagram.png" alt="instagram">
-        <img src="images/download.png" alt="youtube">
+        <img class="youtube" src="images/download.png" alt="youtube">
+        <a href="site-plan.html"><img class="site-plan" src="images/home_logo.png" alt="site plan"></a>
     </footer>
+    
 
-
+    
 </body>
 </html>
